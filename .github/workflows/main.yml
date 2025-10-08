@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "Modul 4 - Serving Model dengan Gaya/**"
   pull_request:
     branches:
       - main
+    paths:
+      - "Modul 4 - Serving Model dengan Gaya/**"
 
 env:
   CSV_URL: "MLproject/train_pca.csv"
