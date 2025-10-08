@@ -34,7 +34,7 @@ jobs:
 
       - name: Run mlflow project
         run: |
-          mlflow run . --env-manager=local 
+          mlflow run MLproject --env-manager=local
 
       - name: Check mlruns content
         run: |
